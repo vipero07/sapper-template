@@ -23,6 +23,7 @@ module.exports = {
 						loader: 'svelte-loader',
 						options: {
 							dev,
+							emitCss: true,
 							hydratable: true,
 							hotReload: false // pending https://github.com/sveltejs/svelte/issues/2377
 						}
