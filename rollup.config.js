@@ -69,6 +69,7 @@ export default {
 			}),
 			svelte({
 				generate: 'ssr',
+				emitCss: false,
 				dev
 			}),
 			resolve({
